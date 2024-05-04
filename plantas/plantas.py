@@ -8,3 +8,6 @@ class Plantas(SeresVivos):
 
     def fotosintesis(self):
         print(f"La planta {self.nombre_cientifico} del tipo {self.tipo} esta haciendo fotosintesis")
+
+    def reproducirse(self):
+        print("Se esta reproduciendo con esporas")

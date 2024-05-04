@@ -9,3 +9,6 @@ class ConFlor(Plantas):
 
     def florear(self):
         print(f"La planta {self.nombre_cientifico} del tipo {self.tipo} conocida como {self.nombre_local} esta floreando")
+
+    def reproducirse(self):
+        print("Se esta reproduciendo con esporas")
