@@ -12,3 +12,6 @@ class ConFlor(Plantas):
 
     def reproducirse(self):
         print("Se esta reproduciendo con esporas")
+
+    def test_function_flake8_rule(self):
+        print("funciona")
