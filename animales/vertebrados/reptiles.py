@@ -21,7 +21,9 @@ class Reptiles(Vertebrados):
 
     def puedo_nadar(self):
         print("Puedo nadar")
+
     def mudo_de_piel(self):
         print("Mudo de piel cuando crezco")
+
     def huevo(self):
         print("Nazco de huevo")
