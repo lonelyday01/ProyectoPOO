@@ -1,6 +1,10 @@
-from plantas.con_flor import ConFlor
+from animales.animales import Animales
 
+conejo = Animales(nombre_cientifico="conejus",
+                  edad=1500,
+                  patas=4,
+                  ojos=2,
+                  voca=1,
+                  tipo_piel="pelos")
 
-orquidea = ConFlor(nombre_cientifico="Orchidaceae", edad=18, tipo="tropical", color="Blanco", nombre_local="Orquidea")
-orquidea.reproducirse()
-orquidea.florear()
+conejo.reproducirse()
