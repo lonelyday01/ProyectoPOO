@@ -11,5 +11,5 @@ class Vertebrados(Animales):
                          edad=edad)
         self.num_vertebras = num_vertebras
 
-    def me_puedo_roper(self):
+    def me_puedo_romper(self):
         print("Me puedo romper :c")
